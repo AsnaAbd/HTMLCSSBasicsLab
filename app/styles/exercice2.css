@@ -1,0 +1,14 @@
+#blocks{
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 100px;
+}
+#blocks div{
+  position: relative;
+  background-color:#000000;
+  height: 80px;
+  font-size: 25px;
+  color: #A0A0A0 ;
+  line-height:75px;
+  style.margin: 10px;
+}

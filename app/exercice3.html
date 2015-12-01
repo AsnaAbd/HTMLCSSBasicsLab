@@ -1,1 +1,91 @@
-TODO
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Agence Immobilier</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body style="">
+
+    <div class="container">
+      <fieldset>
+        <legend >Formulaire d'annonce Agence Immobilière</legend>
+    <form class="col-lg-5">
+    <div class="form-group">
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+        <tr>
+      <label for="titre">Titre : </label>
+      <input id="titre" type="text" class="form-control" required="true" placeholder="Titre d'annonce">
+      <label for="prix">Prix : </label>
+      <input id="prix" type="number" class="form-control" required="true" placeholder="Prix">
+      <label for="email">Email : </label>
+      <input id="email" type="email" class="form-control" required="true" placeholder="example@gmail.com">
+      <label for="ville">Ville : </label>
+      <input id="ville" type="text" class="form-control" required="true" placeholder="Ville">
+      <label for="ville">Adresse : </label>
+      <input id="adresse" type="text" class="form-control" required="true" placeholder="Adresse">
+      <label for="titre">Date : </label>
+      <input id="titre" type="date" class="form-control" required="true" placeholder="Date">
+      <label for="surface">Surface : </label>
+      <input id="surface" type="text" class="form-control" required="true" placeholder="Surface en m2">
+      <label for="type">Type de Bien : </label>
+      <select id="type" class="form-control">
+        <option>Choisissez</option>
+        <option value="appartement">appartement</option>
+        <option value="maison">maison</option>
+        <option value="terrain">terrain</option>
+      </select>
+
+      <label for="class">Classe énergétique : </label>
+      <select id="class" class="form-control" >
+          <option>Choisissez</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="c">D</option>
+        <option value="c">E</option>
+      </select>
+
+      <label for="plus">Plus : </label>
+      <select id="plus" class="form-control" multiple="">
+        <option value="cave" >cave</option>
+        <option value="garage">garage</option>
+        <option value="terrasse">terrasse</option>
+        <option value="jacuzzi">jacuzzi</option>
+
+      </select>
+
+      <label for="description">Déscription de l'annonce : </label>
+      <textarea id="description" type="textarea" rows="6" class="form-control" placeholder="Déscription de votre annonce"></textarea>
+    </div>
+    <section id="wrapper">
+    <style>
+    #holder { border: 10px dashed blue; width: 400px; min-height: 250px; margin: 20px auto;}
+    #holder.hover { border: 10px dashed green; }
+    #holder img { display: block; margin: 10px auto; }
+    #holder p { margin: 10px; font-size: 14px; }
+    .fail { background: #c00; padding: 2px; color: #fff; }
+    .hidden { display: none !important;}
+    </style>
+      <article>
+      <div id="holder">  </div>
+      <p id="filereader">File API & FileReader API not supported</p>
+      <p id="formdata">XHR2's FormData is not supported</p>
+      <p id="progress">XHR2's upload progress isn't supported</p>
+      </article>
+      <script type="text/javascript" src="scripts/exercice3.js"></script>
+    </section>
+    <button type="submit" class="btn btn-primary" value="Envoyer">Envoyer</button>
+
+</form>
+  </fieldset>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </div>
+
+  </body>
+</html>

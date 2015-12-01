@@ -1,0 +1,46 @@
+.blocks {
+  position: relative;
+}
+.blocks div {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #F0E68C;
+  border: solid 3px;
+  font-size: 200%;
+}
+.blocks #one {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scale(0.7) rotate(19deg) translate(400px, 60px);
+      -ms-transform: scale(0.7) rotate(19deg) translate(400px, 60px);
+          transform: scale(0.7) rotate(19deg) translate(400px, 60px);
+}
+.blocks #two {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scale(0.7) rotate(110deg) translate(255px, -200px);
+      -ms-transform: scale(0.7) rotate(110deg) translate(255px, -200px);
+          transform: scale(0.7) rotate(110deg) translate(255px, -200px);
+}
+.blocks #three {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scale(0.7) rotate(-160deg) translate(4px, -50px);
+      -ms-transform: scale(0.7) rotate(-160deg) translate(4px, -50px);
+          transform: scale(0.7) rotate(-160deg) translate(4px, -50px);
+}
+.blocks #four {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: scale(0.7) rotate(-70deg) translate(150px, 200px);
+      -ms-transform: scale(0.7) rotate(-70deg) translate(150px, 200px);
+          transform: scale(0.7) rotate(-70deg) translate(150px, 200px);
+}
+
